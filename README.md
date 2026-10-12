@@ -1,58 +1,44 @@
 # Death Camera
 
+<div align="center">
+  <a href="https://modrinth.com/mod/deathcam">
+    <img alt="Download on Modrinth" src="https://img.shields.io/modrinth/v/deathcam?label=Modrinth&color=00AF5C&logo=modrinth">
+  </a>
+</div>
+
 This mod enhances your gameplay by introducing streamlined mechanics and practical features designed to fit naturally into the game. It focuses on visual clarity, seamless integration, and convenience without cluttering the vanilla experience.
 
-![demo](https://cdn.jsdelivr.net/gh/monkey52x/deathcam@261309b0176b3a45c08ed8b495063ca86dd98bb4/assets/1.gif)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/monkey52x/deathcam/main/assets/P.png" alt="Death Camera">
+</p>
 
 ---
 
 ## Features
 
-### Orbiting Death Camera
-After death the camera smoothly flies out of your head into a slow orbit around your remains: eased fly-in, interpolated rotation at any FPS, smart wall collision and a steady picture without vanilla shake and tilt.
-
-<details>
-<summary>🎬 View gameplay demonstration</summary>
-
-![orbit-demo](https://cdn.jsdelivr.net/gh/monkey52x/deathcam@261309b0176b3a45c08ed8b495063ca86dd98bb4/assets/1.gif)
-
-</details>
+### 🌀 Orbiting Death Camera
+> **Slow cinematic orbit around your remains after death.**
+>
+> After death the camera smoothly flies out of your head into orbit: eased fly-in, interpolated rotation at any FPS, smart wall collision and a steady picture without vanilla shake and tilt.
 
 ---
 
-### Static Third-Person View
-A fixed third-person view without rotation. Camera height is fixed and the view stays locked on your remains. Optional dynamic FOV zoom can be disabled in the config.
-
-<details>
-<summary>🎬 View gameplay demonstration</summary>
-
-![static](https://cdn.jsdelivr.net/gh/monkey52x/deathcam@261309b0176b3a45c08ed8b495063ca86dd98bb4/assets/3.gif)
-
-</details>
+### 🎥 Static Third-Person View
+> **Fixed third-person view without rotation, locked on your remains.**
+>
+> Camera height is fixed and the view stays locked on your remains. Optional dynamic FOV zoom can be disabled in the config.
 
 ---
 
-### Random Camera Perspective
-A static, non-rotating camera placed at a random viewpoint around the player for a cinematic angle.
-
-<details>
-<summary>🎬 View gameplay demonstration</summary>
-
-![random](https://cdn.jsdelivr.net/gh/monkey52x/deathcam@261309b0176b3a45c08ed8b495063ca86dd98bb4/assets/4.gif)
-
-</details>
+### 🎲 Random Camera Perspective
+> **Static, non-rotating camera at a random viewpoint — a cinematic angle every death.**
 
 ---
 
-### Corpse Mod Compatibility
-Pairs seamlessly with the **Corpse** mod (or similar mods), focusing the camera smoothly on your remains upon death.
-
-<details>
-<summary>📷 View screenshot</summary>
-
-![corpse](https://cdn.jsdelivr.net/gh/monkey52x/deathcam@bd1d6ffbdc8a590f5e410342a54c056376e65faa/assets/corpse.png)
-
-</details>
+### ⚰️ Corpse Mod Compatibility
+> **Pairs seamlessly with the Corpse mod (or similar mods).**
+>
+> Focuses the camera smoothly on your remains upon death.
 
 ---
 
@@ -67,7 +53,7 @@ Pairs seamlessly with the **Corpse** mod (or similar mods), focusing the camera 
 >
 > ⚙️ **In-Game Configuration:** To configure the mod's settings directly inside the game menu, make sure to install **[Cloth Config API](https://modrinth.com/mod/cloth-config)** (plus [ModMenu](https://modrinth.com/mod/modmenu) on Fabric for the settings button). Without it, edit `config/deathcamera.json` by hand — it is re-read on every death, no restart needed.
 >
-> 💡 **Recommended:** For the best experience, it is strongly recommended to play alongside the **[Corpse](https://modrinth.com/mod/corpse)** mod (or any similar gravestone/corpse alternative), as showcased in Feature 4.
+> 💡 **Recommended:** For the best experience, it is strongly recommended to play alongside the **[Corpse](https://modrinth.com/mod/corpse)** mod (or any similar gravestone/corpse alternative).
 
 ---
 
